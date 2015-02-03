@@ -15,30 +15,30 @@ namespace DynamicArrayTests
 		// Partie 1  (lab 2)
 		/////////////////////////////////////////////////
 
-		//TEST_METHOD(la_capacite_par_defaut_d_un_dynamicArray_est_de_100)
-		//{
-		//	//Arrange
-		//	const int CAPACITE_DEFAUT = 100;
-		//	DynamicArray tableau;
+		TEST_METHOD(la_capacite_par_defaut_d_un_dynamicarray_est_de_100)
+		{
+			//arrange
+			const int capacite_defaut = 100;
+			DynamicArray tableau;
 
-		//	//Action
-		//	int capacite = tableau.getCapacite();
+			//action
+			int capacite = tableau.getCapacite();
 
-		//	//Assert
-		//	Assert::AreEqual(CAPACITE_DEFAUT, capacite);
-		//}
+			//assert
+			Assert::AreEqual(capacite_defaut, capacite);
+		}
 
-		//TEST_METHOD(la_valeur_par_defaut_des_elements_d_un_dyanmicArray_est_0)
-		//{
-		//	//Action
-		//	DynamicArray tableau;
+		TEST_METHOD(la_valeur_par_defaut_des_elements_d_un_dyanmicArray_est_0)
+		{
+			//Action
+			DynamicArray tableau;
 
-		//	//Assert
-		//	for (int i = 0; i < tableau.getCapacite(); i++)
-		//	{
-		//		Assert::AreEqual(0, tableau.getElement(i));
-		//	}
-		//}
+			//Assert
+			for (int i = 0; i < tableau.getCapacite(); i++)
+			{
+				Assert::AreEqual(0, tableau.getElement(i));
+			}
+		}
 
 
 		//TEST_METHOD(setElement_devrait_initialiser_un_element_du_dynamicArray)

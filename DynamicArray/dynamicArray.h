@@ -1,6 +1,8 @@
 #ifndef DYNAMICARRAY_H_
 #define DYNAMICARRAY_H_
 
+#include <iostream>
+
 const unsigned int DEFAULT_CAPACITE = 100;
 
 class DynamicArray
