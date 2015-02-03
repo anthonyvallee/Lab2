@@ -2,6 +2,7 @@
 #define DYNAMICARRAY_H_
 
 #include <iostream>
+#include <string>
 
 const unsigned int DEFAULT_CAPACITE = 100;
 
@@ -18,6 +19,7 @@ public:
 private:
 	int* tabElements;
 	unsigned int capacite;
+	void initArray();
 };
 
 
